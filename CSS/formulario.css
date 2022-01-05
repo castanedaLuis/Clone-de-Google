@@ -1,0 +1,119 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+.contenedor {
+    
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    border-color: #0dafdb6b;
+
+}
+
+
+.contenedor2 .icono img {
+    
+    width: 50px;
+    height: 35px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.contenedor2 .texto {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.form {
+    position: relative;
+    top: 40px;
+    width: 400px;
+    height: 500px;
+
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    border-color: #0dafdb6b;
+    margin: auto;
+}
+
+
+input [type=text],[type=email],[type=contraseña]{
+    position: relative;
+    left: 45px;
+    width: 270px;
+    height: 35px;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+/*textarea{
+    width: 470px;
+    height: 110px;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}*/
+
+input[type=submit]{
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 0px;
+    background-color: #e7eef06b;
+    cursor: pointer;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+.entrar {
+    display: inline-block;
+    text-align: left;
+}
+.recuperar{  
+    display: inline-block;
+    text-align: right;
+}
+
+label {
+    padding: 80px;
+    margin: 10px 20px 0 0;
+    font-size: 20px;
+    color: black;
+}
+
+.aviso {
+    padding: 10px;
+    position: relative;
+    top: 75px;
+    font-size: 80%;
+    line-height: 75%;
+    font: message-box;
+    color: #40354ec0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

